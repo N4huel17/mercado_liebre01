@@ -1,66 +1,249 @@
-body {
-    background-color: #EAC926 ;
+header {
+    font-family: 'Roboto';
+    background-color: #EAC926;
+    width: 100%;
+    height: 370px;
 }
 
-header{
-    font-family: 'Roboto' ;
-}
-h1 {
-    font-size: 24px;
-}
-
-.precio{
-font-size: 18px;
- }
- .descuento {
-    font-size: 16px;
- }
- .descripcion{
-    font-size: 16px;
- }
- .cuerpotxt {
-    font-size: 12px;
-    color:#ebebeb;
- }
- .icon_compráencuotas-div {
-    display: flex; 
+.icon_compráencuotas-div {
+    display: flex;
     align-items: center;
     margin-left: 30px;
- }
-ul ,li,  a {
+}
+
+ul, li, a {
     list-style-type: none;
-    padding: 0; 
+    padding: 0;
     margin: 0;
     color: black;
     text-decoration: none;
+    display: none;
 }
-.burger-menu{
-    width: 40px; 
-    height: 40px; 
+
+.header_burger--menu {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #03264C;
+    ;
+    border-radius: 8px;
+    background-color: #03264C;
+    margin-left: 185px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #03264C;; 
-    border-radius: 8px; 
-    background-color: #03264C;
-    margin-left: 150px;
 }
-.burger-menu i {
-    font-size: 20px; 
-    color: white; 
+
+.header_burger--menu i {
+    font-size: 20px;
+    color: white;
 }
-footer {
-    background-color:white;
-    text-align: center;
+
+
+body {
+    font-family: 'Roboto';
+    background-color: #ebebeb;
+
+    width: 100%;
 
 }
-footer h4 {
+
+h1 {
+    font-size: 24px;
     color: #666;
 }
-footer i{
-     color: #03264C;
-     font-size: 25px;
+
+.ofertas_info {
+    border: 2px solid white;
+    ;
+    border-radius: 3px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 375px;
 }
+
+.basado_etuv--info {
+    border: 2px solid white;
+    ;
+    border-radius: 3px;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 375px;
+}
+
+.basado_etuv {
+    padding: 3px;
+    margin: 3px;
+    margin-bottom: 20px;
+
+}
+
+.basado_etuv img {
+    width: 380px;
+    height: 400px;
+}
+
+.ofertas {
+    padding: 3px;
+    margin: 3px;
+}
+
+.ofertas img {
+    width: 380px;
+    height: 400px;
+}
+
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+.descuento {
+    font-size: 16px;
+    color: #7FFF00;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.descripcion {
+    font-size: 16px;
+    display: none;
+}
+
+main {
+    margin: 0 auto;
+    display: inline-block;
+    width: 90%;
+}
+
+main section {
+    margin-bottom: 10px;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+main i {
+    color: #7FFF00;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+main h3 {
+    color: #666;
+    margin-left: 20px;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 5px 0;
+    background-color: #ffffff;
+
+}
+
+footer h4 {
+    font-size: 16px;
+    font-weight: 900;
+    color: #666;
+}
+
+footer p {
+    font-size: 12px;
+    color: #ebebeb;
+    margin: 3px 50px;
+}
+
+footer i {
+    color: #03264C;
+    font-size: 25px;
+}
+
 footer article {
-    margin-bottom: 40px;  
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #ffffff;
+}
+
+.list2 li, a {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    header {
+        font-family: 'Roboto';
+        background-color: #EAC926;
+        width: 100%;
+        height: 548px;
+    }
+
+    .header_burger--menu {
+
+        display: none;
+
+    }
+
+    ul, li,a {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .icon_compráencuotas-div {
+
+        margin-left: 200px;
+    }
+
+
+
+    .descripcion {
+        font-size: 16px;
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1140px) {
+    header {
+        font-family: 'Roboto';
+        background-color: #EAC926;
+        width: 100%;
+        height: 650px;
+    }
+
+    .header_burger--menu {
+
+        display: none;
+
+    }
+
+    ul, li, a {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .icon_compráencuotas-div {
+
+        margin-left: 200px;
+    }
+
+
+
+    .descripcion {
+        font-size: 16px;
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+
 }
