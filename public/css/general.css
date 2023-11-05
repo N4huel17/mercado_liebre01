@@ -2,7 +2,7 @@ header {
     font-family: 'Roboto';
     background-color: #EAC926;
     width: 100%;
-    height: 370px;
+    height: 350px;
 }
 
 .icon_compráencuotas-div {
@@ -11,7 +11,7 @@ header {
     margin-left: 30px;
 }
 
-ul, li, a {
+ul,li,a {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -19,6 +19,45 @@ ul, li, a {
     text-decoration: none;
     display: none;
 }
+
+.list2 li,a {
+    display: flex;
+}
+
+.home__header_logo_buscador {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 50%;
+    text-align: center;
+    height: auto;
+}
+
+.buscador {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+input[type="text"] {
+    padding-right: 15px;
+    width: 80%;
+
+}
+
+i.fa-magnifying-glass {
+    position: absolute;
+    right: 0 auto;
+}
+
+
+
 
 .header_burger--menu {
     width: 40px;
@@ -42,8 +81,9 @@ ul, li, a {
 body {
     font-family: 'Roboto';
     background-color: #ebebeb;
-
     width: 100%;
+
+
 
 }
 
@@ -52,45 +92,33 @@ h1 {
     color: #666;
 }
 
-.ofertas_info {
+
+
+
+.productos_container {
+    width: 80%;
+}
+
+.home_main_products {
+    padding: 3px;
+    margin: 3px;
+    width: 90%;
+}
+
+.home_main_products img {
+    width: 380px;
+    height: 400px;
+}
+
+.home_main_products_descripcion {
     border: 2px solid white;
-    ;
+    
     border-radius: 3px;
     background-color: white;
     margin-bottom: 10px;
     width: 375px;
 }
 
-.basado_etuv--info {
-    border: 2px solid white;
-    ;
-    border-radius: 3px;
-    background-color: white;
-    margin-bottom: 10px;
-    width: 375px;
-}
-
-.basado_etuv {
-    padding: 3px;
-    margin: 3px;
-    margin-bottom: 20px;
-
-}
-
-.basado_etuv img {
-    width: 380px;
-    height: 400px;
-}
-
-.ofertas {
-    padding: 3px;
-    margin: 3px;
-}
-
-.ofertas img {
-    width: 380px;
-    height: 400px;
-}
 
 .precio {
     font-size: 18px;
@@ -101,7 +129,7 @@ h1 {
 
 .descuento {
     font-size: 16px;
-    color: #7FFF00;
+    color: #39b54a;
     margin-top: 10px;
     margin-left: 20px;
 
@@ -125,9 +153,18 @@ main section {
 }
 
 main i {
-    color: #7FFF00;
-    margin-top: 10px;
-    margin-left: 20px;
+    color: #39b54a;
+    border-radius: 50%;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-left: 300px;
+    margin-top: -100px;
 
 }
 
@@ -170,16 +207,14 @@ footer article {
     background-color: #ffffff;
 }
 
-.list2 li, a {
-    display: flex;
-}
+
 
 @media (min-width: 768px) {
     header {
-        font-family: 'Roboto';
-        background-color: #EAC926;
-        width: 100%;
-        height: 548px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 310px;
     }
 
     .header_burger--menu {
@@ -188,21 +223,42 @@ footer article {
 
     }
 
-    ul, li,a {
-        display: block;
-        flex-wrap: wrap;
+    ul,li,a {
+        display: flex;
+        flex-wrap: row;
+        gap: 10px;
+        justify-content: space-between;
+        margin-left: 5px;
     }
 
     .icon_compráencuotas-div {
 
-        margin-left: 200px;
+        margin-right: 25px;
     }
 
+    .buscador {
+        margin-left: 40px;
 
+    }
 
     .descripcion {
         font-size: 16px;
         display: block;
+    }
+
+    .productos_container {
+        width: 40%;
+
+
+
+    }
+
+    .home_main_products {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 5px;
     }
 
     footer {
@@ -212,38 +268,47 @@ footer article {
 
 @media (min-width: 1140px) {
     header {
-        font-family: 'Roboto';
-        background-color: #EAC926;
-        width: 100%;
-        height: 650px;
+        height: 410px;
     }
 
-    .header_burger--menu {
-
-        display: none;
-
+   
+    .logo {
+        width: 400px;
+        
+        
     }
-
-    ul, li, a {
-        display: block;
-        flex-wrap: wrap;
-    }
-
     .icon_compráencuotas-div {
 
+        margin-right: 300px;
+    }
+
+    .buscador {
+        margin-left: -50px;
+
+    }
+    .productos_container {
+        width: 24%;
+
+    }
+    
+    .home_main_products {
+        justify-content:space-around;
+        margin-left: 100px;
+    }
+
+    .home_main_products img {
+        width: 250px;
+        height: 250px;
+    }
+    .home_main_products_descripcion {
+        margin-bottom: 10px;
+        width: 245px;
+    }
+    main i {
+   
         margin-left: 200px;
+        margin-top: -150px;
+    
     }
-
-
-
-    .descripcion {
-        font-size: 16px;
-        display: block;
-    }
-
-    footer {
-        width: 100%;
-    }
-
 
 }
