@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mercado Liebre | Registro</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/dab99d869d.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="register">
+    <header>
+        <div class="home__header_logo_buscador">
+            <div class="logo">
+                <img src="/images/logo-mercado-liebre.svg" alt="logo de Mercado Liebre" height='100' width='200'>
+            </div>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar productos,marcas">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <br>
+
+
+        <div class="icon_compráencuotas-div">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <p>Comprá en cuotas y sin tarjeta de credito</p>
+        </div>
+
+        <nav class="list">
+            <ul>
+                <li><a href="/">Ofertas</a></li>
+                <li><a href="/">Tiendas oficiales</a></li>
+                <li><a href="/">Vender</a></li>
+                <li><a href="/">Ayuda</a></li>
+            </ul>
+        </nav>
+        <br>
+
+        <nav class="list2">
+            <ul>
+                <li><a href="/register">Crea tu cuenta</a><i class="fa-solid fa-address-card"></i></li>
+                <li><a href="/login">Ingresa</a><i class="fa-solid fa-arrow-up-from-bracket fa-rotate-90"></i></li>
+                <li><a href="/productCart">Tus compras</a><i class="fa-solid fa-cart-plus"></i></li>
+            </ul>
+
+            <br>
+
+        </nav>
+        <div class="header_burger--menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <br>
+        <div class="baner">
+            <img src="/images/img-home-banner.jpg" alt="" width="100%">
+        </div>
+
+    </header>
+    <main class="register_main">
+        <section class="register_main_seccion">
+            <div class="register_main_title">
+                <h3>Registro</h3>
+                <hr>
+            </div>
+            <form action="" class="form">
+                <div class="register_form">
+                    <label class="form__label" for="name">Nombre y apellido</label>
+                    <input class="form__input" id="name" type="text" placeholder="Escribi tu Nombre"
+                        name="name">
+                    <small class="form_msg-error">Estos datos son obligatorio</small>
+                </div>
+                <div class="register_form">
+                    <label class="form__label" for="userName">Nombre de usuari@</label>
+                    <input class="form__input" id="userName" type="text" placeholder="Escribi tu Nombre de usuario"
+                        name="userName">
+                    <small class="form_msg-error">Estos datos son obligatorio</small>
+                </div>
+                <div class="register_form">
+                    <label class="form__label" for="email">Email</label>
+                    <input class="form__input" id="email" type="email" placeholder="correo@correo.com" name="email">
+                </div>
+                <div class="register_form">
+                    <label class="form__label" for="birthday">Fecha de nacimiento</label>
+                    <input class="form__input" type="date" name="birthday" id="birthday">
+                </div>
+                <div class="register_form">
+                    <label class="form__label" for="address">Domicilio</label>
+                    <input class="form__input" id="address" type="text" value="" name="address" placeholder="Calle y altura">
+                </div>
+                <div class="register_form--perfil">
+                    <h4 class="form__label">Perfil</h4>
+                    <div class="">
+                        <input type="radio" id="c" value="c" name="comprador">
+                        <label for="c">Comprador</label>
+                    </div>
+                    <div class="register_form--perfil">
+                        <input type="radio" id="v" value="v" name="vendedor">
+                        <label for="v">Vendedor</label>
+                    </div>
+                </div>
+                  
+
+
+
+            <div class="register_form">
+                <h4 class="form__label">Recibir información de:</h4>
+                <div class="form__box--col50">
+                    <input type="checkbox" name="info" id="electro">
+                    <label for="electro">Electro</label>
+                </div>
+                <div class="form__box--col50">
+                    <input type="checkbox" name="info" id="moda">
+                    <label for="moda">Moda</label>
+                </div>
+                <div class="form__box--col50">
+                    <input type="checkbox" name="info" id="hogar">
+                    <label for="hogar">Hogar</label>
+                </div>
+                <div class="form__box--col50">
+                    <input type="checkbox" name="info" id="jugueteria">
+                    <label for="jugueteria">Jugueteria</label>
+                </div>
+                <div class="form__box--col50">
+                    <input type="checkbox" name="info" id="vidaSana">
+                    <label for="vidaSana">Vida sana</label>
+                </div>
+                
+            </div>
+            <div class="form__box--col50">
+                <label for="avatar" class="form__label">Imagen del perfil</label>
+                <input type="file" class="form__input" accept="image/*">
+            </div>
+
+
+            <div class="register_form">
+                <label class="form__label" for="password">Contraseña</label>
+                <input class="form__input" id="password" type="password" placeholder="tu contraseña" name="password">
+            </div>
+            <div class="register_form">
+                <label class="form__label" for="password2">Confirma tu contraseña</label>
+                <input class="form__input" id="password2" type="password" placeholder="confirma tu contraseña" name="password2">
+            </div>
+
+            <div class="register_end">
+                <button class="button button__secondary" type="reset">Limpiar</button>
+                <button class="button button__primary" type="submit">Enviar</button>
+            </div>
+
+
+            </form>
+
+
+
+
+
+
+
+
+
+        </section>
+
+    </main>
+    <footer>
+        <article>
+            <i class="fa-solid fa-credit-card"></i>
+            <h4> Pagá con tarjeta o en efectivo </h4>
+            <p class="cuerpotxt"> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+        </article>
+        <article>
+            <i class="fa-solid fa-gift"></i>
+            <br>
+            <h4>Envío gratis desde $ 2.500</h4>
+            <p class="cuerpotxt"> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p>
+        </article>
+
+        <article>
+            <i class="fa-solid fa-user-shield"></i>
+            <h4>Seguridad, de principio a fin</h4>
+            <p class="cuerpotxt"> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                porque estás siempre protegid@.</p>
+        </article>
+        <article>
+            <p class="cuerpotxt">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </article>
+    </footer>
+
+
+</body>
+
+</html>
