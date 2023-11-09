@@ -1,0 +1,131 @@
+.register_main{
+    
+    display: flex;
+  justify-content: center; 
+  align-items: center;  
+}
+
+.login_main{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.register_form {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+}
+.login_form{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+}
+.button__primary-login {
+    background-color:blue;
+    color: white;
+    width: 90%;
+}
+.form__input-login {
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+    margin-top: 10px;
+    }
+
+.register_form--perfil{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+.form__input--password {
+    position: relative;
+}
+
+
+
+.form__label {
+    margin-bottom: 20px;
+}
+
+.form__input {
+width: 100%;
+padding: 8px;
+border-radius: 5px;
+border: 1px solid #c0c0c0;
+margin-top: 10px;
+}
+
+
+
+.form_msg-error{
+    color: red;
+    margin-left: 5px;  
+}
+.button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button__secondary {
+    background-color:gray;
+    color: white;
+}
+
+.button__primary {
+    background-color:blue;
+    color: white;
+}
+
+.register_end{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; 
+}
+
+.register_main_seccion{
+    max-width: 500px;
+    width: 90%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #c0c0c0;
+    border-radius: 5px;
+}
+.login_main_seccion{
+    max-width: 500px;
+    width: 90%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #c0c0c0;
+    border-radius: 5px;
+}
+.login_main_title{
+    margin-bottom: 30px;
+    text-align:start;
+}
+
+
+
+.register_main_title{
+    margin-bottom: 30px;
+    text-align: end;
+}
+
+.form__box--col50 {
+    width: 100%;
+    margin-bottom: 20px;
+}
