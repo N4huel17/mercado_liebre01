@@ -48,17 +48,14 @@ ul,li,a {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
+    
 }
 .baner{
     margin-top: 20px;
 }
 
-input[type="text"] {
-    padding-right: 15px;
-    width: 80%;
 
-}
+
 
 i.fa-magnifying-glass {
     position: absolute;
@@ -265,6 +262,8 @@ footer article {
         margin-left: 0%;
 
     }
+
+  
 
     .descripcion {
         font-size: 16px;
