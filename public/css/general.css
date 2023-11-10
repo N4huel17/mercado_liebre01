@@ -50,6 +50,9 @@ ul,li,a {
     justify-content: flex-end;
 
 }
+.baner{
+    margin-top: 20px;
+}
 
 input[type="text"] {
     padding-right: 15px;
@@ -148,8 +151,11 @@ h1 {
 }
 
 main {
-    margin: 0 auto;
-    display: inline-block;
+    margin:0%;
+   
+    
+    justify-content: center;
+    align-items: center;
     width: 90%;
 }
 
@@ -157,6 +163,8 @@ main section {
     margin-bottom: 10px;
     border-top: 1px solid #ebebeb;
     padding: 15px;
+    position: relative; 
+  left: 10px;
 }
 
 main i {
@@ -303,11 +311,16 @@ footer article {
         margin-top: -10px;
     
     }
+    main {
+        margin: 10px;
+        
+      
+    }
 }
 
 @media (min-width: 1140px) {
     header {
-        height: 410px;
+        height: 405px;
     }
 
    
