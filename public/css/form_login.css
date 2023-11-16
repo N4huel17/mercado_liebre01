@@ -10,13 +10,18 @@
   flex-direction: column;
 }
 .button__primary-login {
-    background-color:blue;
+    background-color:rgb(66, 66, 66);
     color: white;
     width: 90%;
     
     
-   
 }
+.button__primary-login:hover {
+    animation: colorEnviar 5s ease-in-out;
+    background-color: #0022AA;
+}
+
+
 .login_end{
     
     display: flex;
