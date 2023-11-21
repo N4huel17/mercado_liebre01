@@ -1,0 +1,51 @@
+
+
+@keyframes aparecerDescripcion {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes girarIcono {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+
+  @keyframes rotate-90-cw {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+    }
+  }
+
+
+  @keyframes colorEnviar{
+    from {
+      background-color: blue; 
+    }
+    to {
+      background-color: #0022AA; 
+    }
+  }
+
+  @keyframes colorIcon-footer{
+    from {
+      color: #03264C; 
+    }
+    to {
+      color: #EAC926; 
+    }
+  }
+  
+  
